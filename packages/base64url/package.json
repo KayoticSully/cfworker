@@ -14,8 +14,11 @@
     "README.md",
     "package.json"
   ],
-  "repository": "https://github.com/cfworker/cfworker",
-  "author": "Jeremy Danyow <jdanyow@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayoticSully/cfworker.git"
+  },
+  "author": "Ryan Sullivan <kayoticsully@gmail.com>",
   "homepage": "https://github.com/cfworker/cfworker/tree/master/packages/base64url/README.md",
   "license": "MIT",
   "publishConfig": {

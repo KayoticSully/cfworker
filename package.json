@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Packages optimized for Cloudflare Workers",
   "type": "module",
-  "repository": "https://github.com/cfworker/cfworker",
-  "author": "Jeremy Danyow <jdanyow@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayoticSully/cfworker.git"
+  },
+  "author": "Ryan Sullivan <kayoticsully@gmail.com>",
   "homepage": "https://github.com/cfworker/cfworker/tree/master/README.md",
   "license": "MIT",
   "private": true,

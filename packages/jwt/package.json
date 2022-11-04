@@ -1,5 +1,5 @@
 {
-  "name": "@cfworker/jwt",
+  "name": "@kayoticsully/jwt",
   "version": "4.0.4",
   "description": "Tiny lib for decoding JWTs and verifying signatures, using native crypto APIs",
   "keywords": [
@@ -21,7 +21,10 @@
     "README.md",
     "package.json"
   ],
-  "repository": "https://github.com/cfworker/cfworker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KayoticSully/cfworker.git"
+  },
   "author": "Jeremy Danyow <jdanyow@gmail.com>",
   "homepage": "https://github.com/cfworker/cfworker/tree/master/packages/jwt/README.md",
   "license": "MIT",
